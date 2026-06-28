@@ -1,0 +1,10 @@
+*.safetensors binary
+*.pth binary
+*.npy binary
+*.parquet binary
+*.xlsx binary
+*.pdf binary
+*.mp4 binary
+*.png binary
+*.jpg binary
+*.mp3 binary

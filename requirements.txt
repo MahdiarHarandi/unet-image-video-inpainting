@@ -1,0 +1,14 @@
+# --- Deep learning ---
+torch
+torchvision
+
+# --- Metrics / imaging ---
+scikit-image
+numpy
+pillow
+matplotlib
+
+# --- Demo UI + dataset download ---
+gradio
+kaggle
+# Note: FFmpeg must be installed separately and available on PATH (video inpainting).

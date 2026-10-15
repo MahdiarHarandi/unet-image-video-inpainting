@@ -16,13 +16,13 @@ Image inpainting reconstructs corrupted or missing parts of an image from
 surrounding context. This project trains a **U-Net** (convolutional encoder–decoder
 with skip connections, so high-resolution detail survives the bottleneck) to fill
 randomly masked rectangular regions of CelebA faces, then applies the same model
-to video by processing each frame and reassembling with FFmpeg.
+to video by processing each frame independently and reassembling with FFmpeg.
 
 **Key features**
 - U-Net with skip connections; **L1 reconstruction loss**.
 - On-the-fly random rectangular masking for self-supervised training.
 - Quantitative evaluation with **PSNR / SSIM** (skimage).
-- Frame-by-frame **video inpainting** (FFmpeg) for temporally consistent results.
+- Frame-by-frame **video inpainting** and video reassembly with FFmpeg.
 - Interactive **Gradio** UI for trying the model.
 
 ---
